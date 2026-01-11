@@ -33,6 +33,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.text-muted 
+{
+    color: rgb(201, 201, 201) !important;
+}
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--dark);
