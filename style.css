@@ -104,9 +104,9 @@ html[dir="rtl"] .pricing-features li i {
 
 /* Language Switcher */
 .language-switcher {
-    position: fixed;
+    /* position: fixed;
     top: 100px;
-    right: 20px;
+    right: 20px; */
     z-index: 1000;
     display: flex;
     gap: 5px;
@@ -121,7 +121,12 @@ html[dir="rtl"] .language-switcher {
     right: auto;
     left: 20px;
 }
-
+.navbar-nav
+{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
 .lang-btn {
     background: transparent;
     border: none;
@@ -202,6 +207,8 @@ html[dir="rtl"] .whatsapp-btn {
 
 .navbar-brand img {
     transition: transform 0.3s ease;
+    width: 101px;
+    height: 101px;
 }
 
 .navbar-brand:hover img {
