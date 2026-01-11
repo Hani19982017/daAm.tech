@@ -335,8 +335,8 @@ html[dir="rtl"] .whatsapp-btn {
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
+    0%, 100% { transform: translateY(15px); }
+    50% { transform: translateY(80px); }
 }
 
 .animate-float {
@@ -1113,7 +1113,7 @@ html[dir="rtl"] .whatsapp-btn {
     }
     
     .hero-logo {
-        max-width: 120px;
+        max-width: 199px;
     }
     
     .pricing-card {
